@@ -49,4 +49,30 @@ body{
 }
 .user-input button{
   cursor: pointer;
+  padding: 8px;
+  width: fit-content;
+  teansition: 1s;
+  outline: none;
+  background-color: lightgray;
+  border:1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.user-input button: hover{
+  background-color:transparent;
+  color: white;
+}
+.to-do-items{
+  width: 500px;
+  margin: auto;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  padding: 16px;
+  color: #454545;
 }
