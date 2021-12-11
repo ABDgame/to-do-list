@@ -43,3 +43,10 @@ body{
   -o-transition: all 0.30s ease-in-out;
   transition: all 0.30s ease-in-out;
 }
+.user-input input:focus{
+  box-shadow: 0 0 5px #e22865;
+  border: 1px solid #e22865;
+}
+.user-input button{
+  cursor: pointer;
+}
