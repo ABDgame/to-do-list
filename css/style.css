@@ -100,4 +100,20 @@ body{
   .nav h2{
     margin: 10px 0;
   }
+  .user-input{
+    width: 100%;
+  }
+  .to-do-items{
+    width: 100%;
+  }
+}
+@media(max-width:400px){
+  .user-input input{
+     width: 74%;
+  }
+}
+@media(max-width:320px){
+  .user-input input{
+     width: 60%;
+  }
 }
