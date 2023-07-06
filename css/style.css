@@ -89,7 +89,15 @@ h2
    background:#fff;
    transform:rotate(45deg);
 }
-
+.box li i::after
+{
+   content:'';
+   position: absolute;
+   width:15px;
+   height: 2px;
+   background:#fff;
+   transform:rotate(45deg);
+}
 
 
 
