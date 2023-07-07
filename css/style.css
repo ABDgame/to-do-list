@@ -126,11 +126,11 @@ h2
 }
 #list
 {
-   position:relative;
-   margin-top:20px;
-   height:350px;
-   overflow-y:auto;
-   padding-right:10px;
+   position: relative;
+   margin-top: 20px;
+   height: 350px;
+   overflow-y: auto;
+   padding-right: 10px;
 }
 ::-webkit-scrollbar-track
 {
