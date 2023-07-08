@@ -82,7 +82,12 @@ body
 .container ol li .remove
 {
    position: absolute;
+   top: 5px;
+   right: 0;
    width: 25px;
    height: 25px;
-   background:#f00;
+   background:url(minus.png);
+   background-size:cover;
+   border-radius: 50%;
+   cursor:pointer;
 }
