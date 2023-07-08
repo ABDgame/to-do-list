@@ -36,6 +36,12 @@
       let rmvBtn = document.createElement('span');
       rmvBtn.classList.add('remove');
       item.append(rmvBtn);
+      rmvBtn.addEventListener('click', deleteItem);
+    }
+
+    function deleteItem(e){
+      this.parentElment.remove();
+      
     }
   </script>
        
