@@ -37,11 +37,15 @@
       rmvBtn.classList.add('remove');
       item.append(rmvBtn);
       rmvBtn.addEventListener('click', deleteItem);
+      item.addEventListener('click' , doneItem);
     }
 
     function deleteItem(e){
-      this.parentElment.remove();
-      
+      this.parentElment.remove(); 
+    }
+
+    function doneItem(e){
+      this.classList.toggle('done'); 
     }
   </script>
        
