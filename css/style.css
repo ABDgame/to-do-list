@@ -86,7 +86,7 @@ body
    right: 0;
    width: 25px;
    height: 25px;
-   background: url(minus.png);
+   background: url("minus.png");
    background-size:cover;
    border-radius: 50%;
    cursor:pointer;
@@ -104,7 +104,7 @@ body
    right: 0;
    width: 25px;
    height: 25px;
-   background: url(done.png);
+   background: url("done.png");
    background-size:cover;
    border-radius: 50%;
    cursor:pointer;
