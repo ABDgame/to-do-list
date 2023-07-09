@@ -91,9 +91,21 @@ body
    border-radius: 50%;
    cursor:pointer;
 }
-.container ol li.done
+.container ol li.done p
 {
    text-decoration: line-through;
-   color: rgba(0,0,0,0.2);
-   
+   color: rgba(0,0,0,0.2);   
+}
+.container ol li.done p:after
+{
+   content: '';
+   position: absolute;
+   top: 5px;
+   right: 0;
+   width: 25px;
+   height: 25px;
+   background: url(done.png);
+   background-size:cover;
+   border-radius: 50%;
+   cursor:pointer;
 }
