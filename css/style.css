@@ -11,7 +11,9 @@ body
    justify-content: center;
    align-items: center;
    min-height: 100vh;
-   background: linear-gradient(45deg,#9c27b0,#31d5eb);
+   background:url("background.png") no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 .container
 {
